@@ -1,6 +1,6 @@
 #include<iostream>
 #include<string>
-#include"game.h"
+#include"game.hpp"
 
 void printGrid(const CellInfo** grid, int rows, int columns) {
 	std::cout << "   ";
